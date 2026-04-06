@@ -112,6 +112,58 @@ This project is part of the SE2020 Web and Mobile Technologies module.
 ## 📚 Learning Outcome
 Developed a strong foundation in JavaScript fundamentals including DOM manipulation, event handling, and form validation techniques.
 
----
+# Lab 04 – HTML DOM Manipulation with jQuery
+
+This project is part of the SE2020 Web and Mobile Technologies module.
+
+## 📌 Objectives
+- Understand the DOM structure and manipulation
+- Use JavaScript and jQuery for dynamic web pages
+- Handle user interactions using events
+- Build interactive UI components
+
+## 🚀 Features Implemented
+
+### 🔹 DOM Manipulation
+- Accessed elements using DOM methods and jQuery selectors
+- Modified text, styles, and attributes dynamically
+- Updated page title and document properties
+
+### 🔹 Event Handling
+- Mouse events (hover, click, double-click)
+- Keyboard events (input field interaction)
+- Form submission handling
+- Window resize event handling
+
+### 🔹 Dynamic Styling
+- Changed element styles using JavaScript and jQuery
+- Applied delayed background color changes using `setTimeout()`
+
+### 🔹 Image Handling
+- Preloaded images for better performance
+- Implemented dynamic image switching on double-click
+
+### 🔹 Interactive Table
+- Captured user input from form
+- Dynamically added rows to table
+- Implemented delete functionality for each row
+
+### 🔹 Form Control
+- Prevented page refresh on submission
+- Cleared form after submission
+- Provided real-time user feedback
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript (DOM API)
+- jQuery
+
+## 📚 Learning Outcome
+Developed strong skills in DOM manipulation, event handling, and building interactive web applications using JavaScript and jQuery.
+
+
 👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
+---
+
 
