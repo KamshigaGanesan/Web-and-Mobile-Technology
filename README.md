@@ -162,6 +162,51 @@ This project is part of the SE2020 Web and Mobile Technologies module.
 ## 📚 Learning Outcome
 Developed strong skills in DOM manipulation, event handling, and building interactive web applications using JavaScript and jQuery.
 
+# Lab 05 – Advanced HTML DOM Manipulation
+
+This project is part of the SE2020 Web and Mobile Technologies module.
+
+## 📌 Objectives
+- Understand advanced DOM traversal techniques
+- Improve user interaction using dynamic DOM updates
+- Apply real-time validation and conditional styling
+- Implement efficient event handling
+
+## 🚀 Features Implemented
+
+### 🔹 DOM Traversal
+- Accessed parent, child, and sibling elements
+- Iterated through DOM nodes for bulk operations
+
+### 🔹 Dynamic Counter
+- Displayed total number of registered travelers
+- Updated count automatically when adding or removing entries
+
+### 🔹 Conditional Styling
+- Highlighted table rows based on traveler age
+- Improved visual feedback using dynamic styles
+
+### 🔹 Real-Time Validation
+- Validated form inputs while typing
+- Used `querySelector()` for efficient element selection
+- Provided instant feedback to users
+
+### 🔹 Dynamic Filtering
+- Filtered travelers based on selected age group
+- Updated table without reloading the page
+
+### 🔹 Event Delegation
+- Used a single event listener for delete buttons
+- Improved performance and scalability
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript (DOM API)
+
+## 📚 Learning Outcome
+Enhanced skills in advanced DOM manipulation, efficient event handling, and building responsive and interactive web applications.
+
 
 👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
 ---
