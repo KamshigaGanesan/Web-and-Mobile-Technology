@@ -1,9 +1,18 @@
-# Web-and-Mobile-Technology
-Lab activities and mini tasks for Web and Mobile Technology module
+# Web and Mobile Technology Labs
+
+This repository contains a series of lab exercises completed for the SE2020 Web and Mobile Technologies module (Year 2 Semester 2).
+
+## 📌 Overview
+The labs demonstrate progressive development of front-end skills:
+
+- HTML structure and elements
+- CSS styling techniques
+- JavaScript fundamentals
+- DOM manipulation and event handling
+- Advanced interactive web features
+
 
 # Lab 01 – HTML Web Page Development
-
-This project is part of the SE2020 Web and Mobile Technologies module.
 
 ## 📌 Objectives
 - Understand basic HTML structure
@@ -29,8 +38,6 @@ Gained hands-on experience in structuring a web page and using fundamental HTML 
 
 
 # Lab 02 – Enhancing Web Page using HTML & CSS
-
-This project is part of the SE2020 Web and Mobile Technologies module.
 
 ## 📌 Objectives
 - Use lists to create a navigation bar
@@ -64,8 +71,6 @@ Gained practical experience in applying different types of CSS to improve web pa
 
 
 # Lab 03 – JavaScript Basics and Form Validation
-
-This project is part of the SE2020 Web and Mobile Technologies module.
 
 ## 📌 Objectives
 - Understand JavaScript fundamentals
@@ -113,8 +118,6 @@ This project is part of the SE2020 Web and Mobile Technologies module.
 Developed a strong foundation in JavaScript fundamentals including DOM manipulation, event handling, and form validation techniques.
 
 # Lab 04 – HTML DOM Manipulation with jQuery
-
-This project is part of the SE2020 Web and Mobile Technologies module.
 
 ## 📌 Objectives
 - Understand the DOM structure and manipulation
@@ -164,8 +167,6 @@ Developed strong skills in DOM manipulation, event handling, and building intera
 
 # Lab 05 – Advanced HTML DOM Manipulation
 
-This project is part of the SE2020 Web and Mobile Technologies module.
-
 ## 📌 Objectives
 - Understand advanced DOM traversal techniques
 - Improve user interaction using dynamic DOM updates
@@ -207,6 +208,8 @@ This project is part of the SE2020 Web and Mobile Technologies module.
 ## 📚 Learning Outcome
 Enhanced skills in advanced DOM manipulation, efficient event handling, and building responsive and interactive web applications.
 
+## 🚀 Overall Learning Outcome
+This repository showcases my ability to build and enhance web applications using modern front-end technologies, progressing from static web pages to fully interactive and dynamic systems.
 
 👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
 ---
