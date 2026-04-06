@@ -208,6 +208,68 @@ Developed strong skills in DOM manipulation, event handling, and building intera
 ## 📚 Learning Outcome
 Enhanced skills in advanced DOM manipulation, efficient event handling, and building responsive and interactive web applications.
 
+# Lab 06 – Node.js Library Management System
+
+## 📌 Objectives
+- Understand Node.js as a server-side runtime environment
+- Work with JavaScript objects and arrays
+- Implement event-driven programming using functions
+- Use Node.js core modules
+- Store and retrieve data using JSON files
+- Build a menu-driven console application
+
+## 🚀 Features Implemented
+
+### 🔹 Book Management
+- Created book objects with properties:
+  - id, title, author, year, availability
+- Stored multiple books using arrays
+
+### 🔹 Display Functionality
+- Display all books with availability status
+- Show total number of books in the library
+
+### 🔹 Add Books
+- Dynamically add new books using functions
+- Automatically assign unique IDs
+
+### 🔹 Search Function
+- Search books by title (case-insensitive)
+- Display availability status
+
+### 🔹 Borrow & Return System
+- Borrow books (mark as unavailable)
+- Return books (mark as available)
+- Used conditional logic to manage state
+
+### 🔹 Filtering
+- Display only available books
+- Display borrowed books using array filtering
+
+### 🔹 Delete Books
+- Remove books using unique ID
+- Updated library dynamically
+
+### 🔹 Data Handling
+- Managed data using arrays and objects
+- Prepared for file-based storage using JSON
+
+## 🛠️ Technologies Used
+- JavaScript (Node.js)
+- Node.js Core Modules (fs, readline)
+
+## 📚 Learning Outcome
+Gained hands-on experience in backend development using Node.js, including data handling, functional programming, and building a console-based application.
+
+## ▶️ How to Run
+
+1. Install Node.js (LTS version)
+2. Open terminal in project folder
+3. Run the application:
+
+```bash
+node library.js
+
 ## 🚀 Overall Learning Outcome
 This repository showcases my ability to build and enhance web applications using modern front-end technologies, progressing from static web pages to fully interactive and dynamic systems.
 
