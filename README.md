@@ -270,6 +270,78 @@ Gained hands-on experience in backend development using Node.js, including data 
 ```bash
 node library.js
 
+# Lab 07 – Express.js Movie Booking REST API
+
+This project is part of the SE2020 Web and Mobile Technologies module.
+
+## 📌 Objectives
+- Understand RESTful API design
+- Use Express.js for backend development
+- Implement CRUD operations
+- Handle HTTP requests and responses
+- Work with JSON data
+
+## 🚀 Features Implemented
+
+### 🔹 Server Setup
+- Created Express.js application
+- Configured server to run on port 3000
+- Enabled JSON request parsing using middleware
+
+### 🔹 Booking Management
+- Stored booking data in an in-memory array
+- Each booking includes:
+  - Booking ID
+  - Movie name
+  - Customer name
+  - Number of tickets
+
+### 🔹 API Endpoints
+
+#### ➕ Create Booking
+- **POST /bookings**
+- Adds a new booking
+
+#### 📄 View All Bookings
+- **GET /bookings**
+- Retrieves all bookings in JSON format
+
+#### 🔍 View Booking by ID
+- **GET /bookings/:id**
+- Retrieves a specific booking
+- Returns error if not found
+
+#### ✏️ Update Booking
+- **PUT /bookings/:id**
+- Updates booking details
+- Supports partial updates
+
+#### ❌ Delete Booking
+- **DELETE /bookings/:id**
+- Removes a booking from the system
+
+### 🔹 Testing
+- Tested all endpoints using Postman
+- Verified correct request/response behavior
+
+## 🛠️ Technologies Used
+- Node.js
+- Express.js
+- Postman (API testing)
+
+## 📚 Learning Outcome
+Developed practical skills in building RESTful APIs using Express.js, including routing, request handling, and CRUD operations.
+
+## ▶️ How to Run
+
+1. Install dependencies:
+```bash
+npm install
+2. Start the server:
+---node server.js
+3. Open in browser or Postman:
+''''http://localhost:3000
+
 ## 🚀 Overall Learning Outcome
 This repository showcases my ability to build and enhance web applications using modern front-end technologies, progressing from static web pages to fully interactive and dynamic systems.
 
