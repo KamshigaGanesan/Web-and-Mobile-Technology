@@ -398,6 +398,53 @@ This repository showcases my ability to build and enhance web applications using
 ## 📚 Learning Outcome
 Gained practical experience in backend API development, MongoDB database modeling, RESTful services, pagination, searching, and aggregation pipelines.
 
+# Lab 09 – React Basics
+
+## 📌 Objectives
+- Understand React fundamentals
+- Create React applications using Vite
+- Build reusable components
+- Use JSX syntax
+- Pass data using props
+- Handle events and state
+
+## 🚀 Features Implemented
+
+### 🔹 React Setup
+- Created React project using Vite
+- Configured project structure
+- Organized components and CSS files
+
+### 🔹 Components
+- Created Navbar component
+- Created Pet component
+- Created Cart component
+- Reused components efficiently
+
+### 🔹 Props
+- Passed data from parent to child components
+- Displayed pet details dynamically
+- Updated cart count through props
+
+### 🔹 React Hooks
+- Implemented useState()
+- Implemented useEffect()
+- Managed stock and cart state
+
+### 🔹 Event Handling
+- Add to Cart functionality
+- Dynamic stock updates
+- Disabled buttons when stock reached zero
+
+## 🛠️ Technologies Used
+- React
+- Vite
+- JavaScript
+- CSS3
+
+## 📚 Learning Outcome
+Developed a strong understanding of React fundamentals including components, props, state management, hooks, and event handling.
+
 👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
 ---
 
