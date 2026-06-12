@@ -345,6 +345,59 @@ npm install
 ## 🚀 Overall Learning Outcome
 This repository showcases my ability to build and enhance web applications using modern front-end technologies, progressing from static web pages to fully interactive and dynamic systems.
 
+# Lab 08 – NoSQL and MongoDB
+
+## 📌 Objectives
+- Understand NoSQL databases
+- Work with MongoDB and Mongoose
+- Design database schemas
+- Build RESTful APIs
+- Implement searching, pagination, and aggregation
+
+## 🚀 Features Implemented
+
+### 🔹 Database Design
+- Student collection
+- Menu Item collection
+- Order collection
+- Relationship management using references
+
+### 🔹 REST API Development
+- Create Student API
+- Create Menu Item API
+- Create Order API
+- CRUD operations
+
+### 🔹 Search Functionality
+- Search menu items by name
+- Filter by category
+- Case-insensitive searching
+
+### 🔹 Pagination
+- Paginated order listing
+- Metadata responses
+- Optimized API results
+
+### 🔹 Analytics Endpoints
+- Total amount spent by students
+- Top-selling menu items
+- Daily order statistics
+
+### 🔹 Testing
+- API testing using Postman
+- CRUD validation
+- Aggregation testing
+
+## 🛠️ Technologies Used
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Postman
+
+## 📚 Learning Outcome
+Gained practical experience in backend API development, MongoDB database modeling, RESTful services, pagination, searching, and aggregation pipelines.
+
 👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
 ---
 
