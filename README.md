@@ -1,451 +1,210 @@
 # Web and Mobile Technology Labs
 
-This repository contains a series of lab exercises completed for the SE2020 Web and Mobile Technologies module (Year 2 Semester 2).
+This repository contains laboratory exercises completed for the **SE2020 – Web and Mobile Technologies** module at **Sri Lanka Institute of Information Technology (SLIIT)**.
 
-## 📌 Overview
-The labs demonstrate progressive development of front-end skills:
+The labs cover modern web development concepts ranging from basic HTML and CSS to JavaScript, React, Node.js, Express.js, MongoDB, REST APIs, and advanced React features.
 
-- HTML structure and elements
-- CSS styling techniques
-- JavaScript fundamentals
-- DOM manipulation and event handling
-- Advanced interactive web features
-
-
-# Lab 01 – HTML Web Page Development
-
-## 📌 Objectives
-- Understand basic HTML structure
-- Learn to use common HTML tags
-- Build a simple web page
-
-## 🚀 Features Implemented
-- Basic HTML structure (DOCTYPE, html, head, body)
-- Page title and headings
-- Image integration
-- Hyperlinks
-- Ordered and unordered lists (including nested lists)
-- Table creation (Trip Cost Overview)
-- Form with input fields
-- Footer section
-
-## 🛠️ Technologies Used
-- HTML5
-
-## 📚 Learning Outcome
-Gained hands-on experience in structuring a web page and using fundamental HTML elements.
-
-
-
-# Lab 02 – Enhancing Web Page using HTML & CSS
-
-## 📌 Objectives
-- Use lists to create a navigation bar
-- Improve styling using CSS techniques
-- Apply inline, embedded, and external CSS
-- Enhance tables and images with CSS
-
-## 🚀 Features Implemented
-
-### 🔹 Inline CSS
-- Centered heading and paragraph
-- Styled image with border and padding
-- Adjusted spacing and alignment
-
-### 🔹 Embedded CSS
-- Created a navigation bar using `<ul>` and `<li>`
-- Removed bullet points and displayed items horizontally
-- Added background color and spacing
-
-### 🔹 External CSS
-- Styled table using a separate CSS file
-- Applied classes for layout and formatting
-- Added different colors for header and data rows
-
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-
-## 📚 Learning Outcome
-Gained practical experience in applying different types of CSS to improve web page design and layout while maintaining clean and organized code.
-
-
-# Lab 03 – JavaScript Basics and Form Validation
-
-## 📌 Objectives
-- Understand JavaScript fundamentals
-- Use the <script> tag correctly
-- Work with variables, arrays, and objects
-- Implement form validation using JavaScript
-- Use conditional statements and loops
-- Interact with users using dialog boxes
-
-## 🚀 Features Implemented
-
-### 🔹 JavaScript Integration
-- Linked external `script.js` file
-- Used console.log() for output
-
-### 🔹 Form Handling
-- Captured input values using DOM methods
-- Prevented default form submission behavior
-
-### 🔹 Validation Logic
-- Checked for empty fields
-- Enforced minimum age (18+)
-- Validated phone number (10 digits)
-- Used switch statement for condition handling
-
-### 🔹 Data Management
-- Created student objects
-- Stored multiple records in an array
-- Displayed student data using loops in console
-
-### 🔹 User Interaction
-- Used alert, confirm, and prompt dialogs
-- Displayed validation messages clearly
-
-### 🔹 Form Reset
-- Cleared input fields after submission
-- Set focus back to the first field
-
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-
-## 📚 Learning Outcome
-Developed a strong foundation in JavaScript fundamentals including DOM manipulation, event handling, and form validation techniques.
-
-# Lab 04 – HTML DOM Manipulation with jQuery
-
-## 📌 Objectives
-- Understand the DOM structure and manipulation
-- Use JavaScript and jQuery for dynamic web pages
-- Handle user interactions using events
-- Build interactive UI components
-
-## 🚀 Features Implemented
-
-### 🔹 DOM Manipulation
-- Accessed elements using DOM methods and jQuery selectors
-- Modified text, styles, and attributes dynamically
-- Updated page title and document properties
-
-### 🔹 Event Handling
-- Mouse events (hover, click, double-click)
-- Keyboard events (input field interaction)
-- Form submission handling
-- Window resize event handling
-
-### 🔹 Dynamic Styling
-- Changed element styles using JavaScript and jQuery
-- Applied delayed background color changes using `setTimeout()`
-
-### 🔹 Image Handling
-- Preloaded images for better performance
-- Implemented dynamic image switching on double-click
-
-### 🔹 Interactive Table
-- Captured user input from form
-- Dynamically added rows to table
-- Implemented delete functionality for each row
-
-### 🔹 Form Control
-- Prevented page refresh on submission
-- Cleared form after submission
-- Provided real-time user feedback
-
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- JavaScript (DOM API)
-- jQuery
-
-## 📚 Learning Outcome
-Developed strong skills in DOM manipulation, event handling, and building interactive web applications using JavaScript and jQuery.
-
-# Lab 05 – Advanced HTML DOM Manipulation
-
-## 📌 Objectives
-- Understand advanced DOM traversal techniques
-- Improve user interaction using dynamic DOM updates
-- Apply real-time validation and conditional styling
-- Implement efficient event handling
-
-## 🚀 Features Implemented
-
-### 🔹 DOM Traversal
-- Accessed parent, child, and sibling elements
-- Iterated through DOM nodes for bulk operations
-
-### 🔹 Dynamic Counter
-- Displayed total number of registered travelers
-- Updated count automatically when adding or removing entries
-
-### 🔹 Conditional Styling
-- Highlighted table rows based on traveler age
-- Improved visual feedback using dynamic styles
-
-### 🔹 Real-Time Validation
-- Validated form inputs while typing
-- Used `querySelector()` for efficient element selection
-- Provided instant feedback to users
-
-### 🔹 Dynamic Filtering
-- Filtered travelers based on selected age group
-- Updated table without reloading the page
-
-### 🔹 Event Delegation
-- Used a single event listener for delete buttons
-- Improved performance and scalability
-
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- JavaScript (DOM API)
-
-## 📚 Learning Outcome
-Enhanced skills in advanced DOM manipulation, efficient event handling, and building responsive and interactive web applications.
-
-# Lab 06 – Node.js Library Management System
-
-## 📌 Objectives
-- Understand Node.js as a server-side runtime environment
-- Work with JavaScript objects and arrays
-- Implement event-driven programming using functions
-- Use Node.js core modules
-- Store and retrieve data using JSON files
-- Build a menu-driven console application
-
-## 🚀 Features Implemented
-
-### 🔹 Book Management
-- Created book objects with properties:
-  - id, title, author, year, availability
-- Stored multiple books using arrays
-
-### 🔹 Display Functionality
-- Display all books with availability status
-- Show total number of books in the library
-
-### 🔹 Add Books
-- Dynamically add new books using functions
-- Automatically assign unique IDs
-
-### 🔹 Search Function
-- Search books by title (case-insensitive)
-- Display availability status
-
-### 🔹 Borrow & Return System
-- Borrow books (mark as unavailable)
-- Return books (mark as available)
-- Used conditional logic to manage state
-
-### 🔹 Filtering
-- Display only available books
-- Display borrowed books using array filtering
-
-### 🔹 Delete Books
-- Remove books using unique ID
-- Updated library dynamically
-
-### 🔹 Data Handling
-- Managed data using arrays and objects
-- Prepared for file-based storage using JSON
-
-## 🛠️ Technologies Used
-- JavaScript (Node.js)
-- Node.js Core Modules (fs, readline)
-
-## 📚 Learning Outcome
-Gained hands-on experience in backend development using Node.js, including data handling, functional programming, and building a console-based application.
-
-## ▶️ How to Run
-
-1. Install Node.js (LTS version)
-2. Open terminal in project folder
-3. Run the application:
-
-```bash
-node library.js
-
-# Lab 07 – Express.js Movie Booking REST API
-
-This project is part of the SE2020 Web and Mobile Technologies module.
-
-## 📌 Objectives
-- Understand RESTful API design
-- Use Express.js for backend development
-- Implement CRUD operations
-- Handle HTTP requests and responses
-- Work with JSON data
-
-## 🚀 Features Implemented
-
-### 🔹 Server Setup
-- Created Express.js application
-- Configured server to run on port 3000
-- Enabled JSON request parsing using middleware
-
-### 🔹 Booking Management
-- Stored booking data in an in-memory array
-- Each booking includes:
-  - Booking ID
-  - Movie name
-  - Customer name
-  - Number of tickets
-
-### 🔹 API Endpoints
-
-#### ➕ Create Booking
-- **POST /bookings**
-- Adds a new booking
-
-#### 📄 View All Bookings
-- **GET /bookings**
-- Retrieves all bookings in JSON format
-
-#### 🔍 View Booking by ID
-- **GET /bookings/:id**
-- Retrieves a specific booking
-- Returns error if not found
-
-#### ✏️ Update Booking
-- **PUT /bookings/:id**
-- Updates booking details
-- Supports partial updates
-
-#### ❌ Delete Booking
-- **DELETE /bookings/:id**
-- Removes a booking from the system
-
-### 🔹 Testing
-- Tested all endpoints using Postman
-- Verified correct request/response behavior
-
-## 🛠️ Technologies Used
-- Node.js
-- Express.js
-- Postman (API testing)
-
-## 📚 Learning Outcome
-Developed practical skills in building RESTful APIs using Express.js, including routing, request handling, and CRUD operations.
-
-## ▶️ How to Run
-
-1. Install dependencies:
-```bash
-npm install
-2. Start the server:
----node server.js
-3. Open in browser or Postman:
-''''http://localhost:3000
-
-## 🚀 Overall Learning Outcome
-This repository showcases my ability to build and enhance web applications using modern front-end technologies, progressing from static web pages to fully interactive and dynamic systems.
-
-# Lab 08 – NoSQL and MongoDB
-
-## 📌 Objectives
-- Understand NoSQL databases
-- Work with MongoDB and Mongoose
-- Design database schemas
-- Build RESTful APIs
-- Implement searching, pagination, and aggregation
-
-## 🚀 Features Implemented
-
-### 🔹 Database Design
-- Student collection
-- Menu Item collection
-- Order collection
-- Relationship management using references
-
-### 🔹 REST API Development
-- Create Student API
-- Create Menu Item API
-- Create Order API
-- CRUD operations
-
-### 🔹 Search Functionality
-- Search menu items by name
-- Filter by category
-- Case-insensitive searching
-
-### 🔹 Pagination
-- Paginated order listing
-- Metadata responses
-- Optimized API results
-
-### 🔹 Analytics Endpoints
-- Total amount spent by students
-- Top-selling menu items
-- Daily order statistics
-
-### 🔹 Testing
-- API testing using Postman
-- CRUD validation
-- Aggregation testing
-
-## 🛠️ Technologies Used
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- Postman
-
-## 📚 Learning Outcome
-Gained practical experience in backend API development, MongoDB database modeling, RESTful services, pagination, searching, and aggregation pipelines.
-
-# Lab 09 – React Basics
-
-## 📌 Objectives
-- Understand React fundamentals
-- Create React applications using Vite
-- Build reusable components
-- Use JSX syntax
-- Pass data using props
-- Handle events and state
-
-## 🚀 Features Implemented
-
-### 🔹 React Setup
-- Created React project using Vite
-- Configured project structure
-- Organized components and CSS files
-
-### 🔹 Components
-- Created Navbar component
-- Created Pet component
-- Created Cart component
-- Reused components efficiently
-
-### 🔹 Props
-- Passed data from parent to child components
-- Displayed pet details dynamically
-- Updated cart count through props
-
-### 🔹 React Hooks
-- Implemented useState()
-- Implemented useEffect()
-- Managed stock and cart state
-
-### 🔹 Event Handling
-- Add to Cart functionality
-- Dynamic stock updates
-- Disabled buttons when stock reached zero
-
-## 🛠️ Technologies Used
-- React
-- Vite
-- JavaScript
-- CSS3
-
-## 📚 Learning Outcome
-Developed a strong understanding of React fundamentals including components, props, state management, hooks, and event handling.
-
-👨‍💻 Developed as part of academic coursework (Year 2 Semester 2).
 ---
 
+## 📚 Labs Included
 
+| Lab    | Topic                                     |
+| ------ | ----------------------------------------- |
+| Lab 01 | HTML Web Page Development                 |
+| Lab 02 | HTML & CSS Styling                        |
+| Lab 03 | JavaScript Fundamentals & Form Validation |
+| Lab 04 | DOM Manipulation with jQuery              |
+| Lab 05 | Advanced DOM Manipulation                 |
+| Lab 06 | Node.js Library Management System         |
+| Lab 07 | Express.js Movie Booking REST API         |
+| Lab 08 | NoSQL and MongoDB                         |
+| Lab 09 | React Basics                              |
+| Lab 10 | Advanced React – User Preferences App     |
+
+---
+
+## 🚀 Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* jQuery
+* React
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+* Mongoose
+
+### Tools
+
+* VS Code
+* Postman
+* Git & GitHub
+
+---
+
+## 📖 Lab Summaries
+
+### Lab 01 – HTML Web Page Development
+
+* HTML document structure
+* Images, tables, forms, and hyperlinks
+* Ordered and unordered lists
+
+### Lab 02 – HTML & CSS Styling
+
+* Inline CSS
+* Internal CSS
+* External CSS
+* Navigation bar and table styling
+
+### Lab 03 – JavaScript Fundamentals
+
+* Variables and arrays
+* Form validation
+* Conditional statements
+* User interaction dialogs
+
+### Lab 04 – DOM Manipulation with jQuery
+
+* Event handling
+* Dynamic content updates
+* Interactive tables
+* Form processing
+
+### Lab 05 – Advanced DOM Manipulation
+
+* DOM traversal
+* Dynamic filtering
+* Real-time validation
+* Event delegation
+
+### Lab 06 – Node.js Library Management System
+
+* Book management
+* Search functionality
+* Borrow and return operations
+* Console-based application
+
+### Lab 07 – Express.js Movie Booking API
+
+* RESTful API development
+* CRUD operations
+* Express routing
+* API testing with Postman
+
+### Lab 08 – NoSQL and MongoDB
+
+* MongoDB collections
+* Mongoose schemas
+* Search and pagination
+* Aggregation pipelines
+* Campus Food Ordering API
+
+### Lab 09 – React Basics
+
+* React components
+* JSX
+* Props
+* useState and useEffect
+* Event handling
+
+### Lab 10 – Advanced React
+
+* Context API
+* useContext
+* useTransition
+* useDeferredValue
+* React.lazy
+* Suspense
+
+---
+
+## 📂 Repository Structure
+
+```text
+Web-and-Mobile-Technology-Labs/
+│
+├── Lab01.zip
+├── Lab02.zip
+├── Lab03.zip
+├── Lab04.zip
+├── Lab05.zip
+├── Lab06.zip
+├── Lab07.zip
+├── Lab08.zip
+├── Lab09.zip
+├── Lab10.zip
+│
+└── README.md
+```
+
+---
+
+## ▶️ Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/Web-and-Mobile-Technology-Labs.git
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Node.js Projects
+
+```bash
+node server.js
+```
+
+### Run React Projects
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through these laboratory exercises, I gained practical experience in:
+
+* Frontend Web Development
+* Responsive UI Design
+* JavaScript Programming
+* DOM Manipulation
+* React Development
+* REST API Development
+* Backend Development with Node.js
+* MongoDB Database Design
+* Full-Stack Application Development
+
+---
+
+## 👨‍💻 Author
+
+**Kamshiga Ganesan**
+
+* Student ID: IT24101365
+* Degree Program: BSc (Hons) in Software Engineering
+* Institution: Sri Lanka Institute of Information Technology (SLIIT)
+
+---
+
+## 📄 License
+
+This repository is maintained for educational and academic purposes.
